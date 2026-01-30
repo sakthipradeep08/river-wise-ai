@@ -1,73 +1,41 @@
-# Welcome to your Lovable project
+# Smart Flood Alert System (SFAS)
 
-## Project info
+An AI-based flood forecasting and community alert system designed to provide early flood risk prediction using historical rainfall data and river-level indicators.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Problem Statement
+Floods cause severe loss of life and property due to delayed warnings, fragmented data, and lack of clear communication to communities.
 
-## How can I edit this code?
+## Our Solution
+SFAS integrates historical flood data, real-time user inputs, and AI-based risk scoring into a single, user-friendly dashboard that provides:
+- Flood risk prediction
+- Early warnings
+- Emergency alerts
+- Rescue resource allocation
 
-There are several ways of editing your application.
+## Features
+- Location-based flood risk analysis
+- Rainfall input (numeric + color-coded levels)
+- River-level severity detection
+- Flood risk score (0–100) with visual charts
+- Emergency popup alerts for high-risk scenarios
+- Rescue resource recommendations
+- Modern, scroll-based dashboard UI
 
-**Use Lovable**
+## Tech Stack
+- Frontend: React + TypeScript
+- UI Generation: Lovable AI
+- Visualization: Charts & animations
+- Data: Historical dummy flood datasets
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## How It Works
+1. User enters location, rainfall, and river condition
+2. AI analyzes inputs along with historical data
+3. Risk score is calculated and visualized
+4. Alerts and rescue suggestions are triggered automatically
 
-Changes made via Lovable will be committed automatically to this repo.
+## Hackathon Note
+This project was developed as a prototype for hackathon demonstration, focusing on usability, explainable AI, and disaster preparedness.
 
-**Use your preferred IDE**
+## Demo
+Live Demo: https://river-wise-ai.lovable.app/dashboard
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
